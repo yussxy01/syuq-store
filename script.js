@@ -4,8 +4,8 @@ const CONFIG = {
     avatar: "image/logo/logo.jpg", 
     instagram: "https://www.instagram.com/mhmdsqrihdzq?rpxt=aXFlN2xqOXllbHIw",
     telegram: "https://t.me/ajiqncem",
-    whatsappNumber: "0167005110", 
-    adminNumber: "6283183469343"
+    whatsappNumber: "60167005110", 
+    adminNumber: "60167005110"
 };
 
 const banners = [
@@ -443,7 +443,7 @@ function renderHome() {
         <div class="product-card" data-id="${p.id}">
             <img src="${p.image}" class="product-image" onerror="this.src='image/logo/logo.jpg'">
             <div class="product-title">${p.name}</div>
-            <div class="product-price">${p.variants.length} Pilihan</div>
+            <div class="product-price">${p.variants.length} Pilihan Durasi</div>
             <div class="product-actions">
                 <button class="btn-buy" data-id="${p.id}">Beli</button>
                 <button class="btn-cart" data-id="${p.id}"><i class="ri-add-line"></i> Detail</button>
